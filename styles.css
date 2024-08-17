@@ -1,4 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 img {
     width: 400px;
     height: auto;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+.container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.header h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
 }
