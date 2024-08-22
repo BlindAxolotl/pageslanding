@@ -109,3 +109,26 @@ a {
     border: lightgray;
     border-style: solid;
 }
+
+.quotesec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px;
+}
+
+.quotecon {
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #676969;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    color: #1F2937;
+    text-align: right;
+    font-size: 32px;
+}
