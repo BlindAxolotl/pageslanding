@@ -132,3 +132,36 @@ a {
     text-align: right;
     font-size: 32px;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.cta {
+    display: flex;
+    gap: 120px;
+    padding: 48px 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+}
+
+.cta h3{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.cta button{
+    padding: 0 16px;
+    margin: 0;
+    background: #3882F6;
+    border: #F9FAF8;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 2px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
