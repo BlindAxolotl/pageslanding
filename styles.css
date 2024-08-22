@@ -165,3 +165,9 @@ a {
     color: #F9FAF8;
     font-weight: bold;
 }
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 50px;
+}
