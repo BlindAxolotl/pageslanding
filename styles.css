@@ -9,7 +9,7 @@ a {
     font-size: 18px;
 }
 
-img {
+.hero img {
     width: 400px;
     height: auto;
 }
@@ -36,7 +36,7 @@ img {
 
 .links {
     display: flex;
-    gap: 8px;
+    gap: 16px;
 }
 
 .hero {
@@ -74,4 +74,38 @@ img {
     background-color: #3882F6;
     border-radius: 13px;
     border: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.info h2{
+    font-size: 32px;
+    font-weight: bolder;
+    columns: #1f2937;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+    color: #636466;
+}
+
+.card img {
+    border-radius: 6px;
+    border: lightgray;
+    border-style: solid;
 }
